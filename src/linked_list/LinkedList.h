@@ -19,6 +19,7 @@ linkedList_t InitLinkedList(float value);
 void CleanupLinkedList(linkedList_t* list);
 
 float Get(linkedList_t* list, int index);
+void Set(linkedList_t* list, int index, float value);
 
 void Append(linkedList_t* list, float value);
 void Insert(linkedList_t* list, int index, float value);
