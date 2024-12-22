@@ -20,8 +20,13 @@ void Init(linkedList_t* list, float value);
 
 void Free(linkedList_t* list);
 
+<<<<<<< HEAD
 float Get(linkedList_t* list, unsigned int index);
 void Set(linkedList_t* list, float value, unsigned int index);
+=======
+float Get(linkedList_t* list, int index);
+void Set(linkedList_t* list, int index, float value);
+>>>>>>> b706390 (Added prototype for Set function)
 
 void Append(linkedList_t* list, float value);
 void Insert(linkedList_t* list, float value, unsigned int index);
