@@ -15,8 +15,8 @@ typedef struct LinkedListNode
 } llnode_t;
 
 
-linkedList_t InitLinkedList(float value);
-void CleanupLinkedList(linkedList_t* list);
+linkedList_t Init(float value);
+void Free(linkedList_t* list);
 
 float Get(linkedList_t* list, int index);
 void Set(linkedList_t* list, int index, float value);
