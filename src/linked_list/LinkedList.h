@@ -1,6 +1,8 @@
 #ifndef LINKED_LIST
 #define LINKED_LIST
 
+#include "assert.h"
+
 typedef struct LinkedList 
 {
   llnode_t* begin;
@@ -18,11 +20,11 @@ void Init(linkedList_t* list, float value);
 
 void Free(linkedList_t* list);
 
-float Get(linkedList_t* list, int index);
-void Set(linkedList_t* list, int index, float value);
+float Get(linkedList_t* list, unsigned int index);
+void Set(linkedList_t* list, float value, unsigned int index);
 
 void Append(linkedList_t* list, float value);
-void Insert(linkedList_t* list, int index, float value);
+void Insert(linkedList_t* list, float value, unsigned int index);
 
 int Delete(linkedList_t* list, float value);
 float Pop(linkedList_t* list);
