@@ -19,7 +19,6 @@ typedef struct LinkedListNode
 void Init(linkedList_t* list, float value);
 
 void Free(linkedList_t* list);
-llnode_t llFreeHelper(llnode_t* root);
 
 float Get(linkedList_t* list, unsigned int index);
 void Set(linkedList_t* list, float value, unsigned int index);
@@ -31,6 +30,5 @@ int Delete(linkedList_t* list, float value);
 float Pop(linkedList_t* list);
 
 void Sort(linkedList_t* list);
-
 
 #endif
