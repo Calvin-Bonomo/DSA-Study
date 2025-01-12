@@ -1,6 +1,6 @@
-set_cmake_minimum_required(version 3.5...)
+cmake_minimum_required(VERSION 3.5)
 
-project(FiresideLib 0.1)
+project(FiresideLib VERSION 0.1 LANGUAGES C)
 
 add_subdirectory(src)
 
