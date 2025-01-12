@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 
-typedef struct _array
+typedef struct
 {
     unsigned long long size;
     unsigned int count;
