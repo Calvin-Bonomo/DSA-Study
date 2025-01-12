@@ -3,7 +3,7 @@
 ## Description
 A library implementing various data structures and algorithms in C. I'm using 
 this project as a way to deepen my understanding of C, CMake, git, and DSA. An
-exhaustive list of all implemented data structures and algorithms can be found [here](#Implemented-Data Structures-and-Algorithms).
+exhaustive list of all implemented data structures and algorithms can be found [here](#Implemented-Data-Structures-and-Algorithms).
 
 ## Dependencies
 - CMake
@@ -20,16 +20,10 @@ exhaustive list of all implemented data structures and algorithms can be found [
 - CMake
 
 ## Implemented Data Structures and Algorithms
-[ ] Array
-
-[ ] Stack
-
-[ ] Heap
-
-[ ] Linked List
-
-[ ] Binary Tree
-
-[ ] Graph
-
-[ ] Red-Black Tree
+- [ ] Array
+- [ ] Stack
+- [ ] Heap
+- [ ] Linked List
+- [ ] Binary Tree
+- [ ] Graph
+- [ ] Red-Black Tree
